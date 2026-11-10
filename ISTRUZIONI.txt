@@ -1,0 +1,23 @@
+Muolosbet — pacchetto PWA per iPhone
+
+CONTENUTO
+- index.html: app
+- manifest.webmanifest: impostazioni installazione
+- service-worker.js: cache/offline per gli asset principali
+- icons/: icone app
+
+PUBBLICAZIONE NECESSARIA
+Per installare da Safari, carica TUTTO il contenuto di questa cartella su un hosting statico che fornisca HTTPS. Non basta aprire index.html come file locale.
+
+INSTALLAZIONE SU IPHONE
+1. Apri in Safari l'indirizzo HTTPS pubblicato.
+2. Tocca Condividi.
+3. Scegli “Aggiungi alla schermata Home”.
+4. Conferma il nome Muolosbet.
+
+LIMITI IMPORTANTI
+- Il pacchetto non include login/autenticazione né sincronizzazione cloud.
+- Lo storico è salvato localmente nel browser/dispositivo.
+- Non è collegato a feed live di quote o promozioni.
+- La PWA non trasforma il prototipo in un servizio finanziario o di scommesse e non garantisce profitto.
+- Per una vera area privata servono autenticazione e backend sicuro.
